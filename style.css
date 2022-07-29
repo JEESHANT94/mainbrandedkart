@@ -1530,7 +1530,7 @@ select {
 
 @media(max-width:400px) {
     html {
-        font-size: 50%;
+        font-size: 47%;
     }
       
     #aboutbtn {
@@ -1543,7 +1543,7 @@ select {
 
 @media(max-width:300px) {
     html {
-        font-size: 50%;
+        font-size: 45%;
     }
 
     #aboutbtn {
