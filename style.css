@@ -861,6 +861,10 @@ marquee {
     color: #fff;
 }
 
+#boxes .box:hover ,.content {
+    color: #fff;
+}
+
 
 
 #boxes .box .content a {
