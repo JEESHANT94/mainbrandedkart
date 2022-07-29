@@ -853,11 +853,15 @@ marquee {
     z-index: 1;
     transition: .5s;
 }
-
-#boxes .box:hover .content,
-.content p {
+#boxes 
+.content p{
+    color: black;
+}
+#boxes .box:hover .content p{
     color: #fff;
 }
+
+
 
 #boxes .box .content a {
     background-color: #fff;
