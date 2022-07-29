@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandedKart | Ecommerce Website </title>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Moonrocks&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar">
+
+                <div class="logo">
+                    <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                    <h1>BRANDED </h1>
+                    <h1 id="kart"> KART</h1>
+                </div>
+                <ul class="nav-links">
+                    <li ><a  href="index.html" class="active">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <img id="cart" src="cart.png">
+
+                </ul>
+                <div class="menu-btn" onclick="hidelogo();shownavlinks();showmenubtn2();hidemenubtn();">
+                    &#9776
+                </div>
+                <div class="menu-btn2" onclick="showlogo();hidenavlinks();hidemenubtn2();showmenubtn();">
+                    &#9776
+                </div>
+
+            </nav>
+
+
+            <div class="row">
+                <div class="col">
+                    <h1>Every moment <br> is a fresh beginning</h1>
+                    <p>“Do not allow people to dim your shine because they are blinded. <br> Tell them to put some
+                        sunglasses on.”</p>
+                    <a href="" class="btn">Explore More</a>
+                </div>
+                <div class="col">
+                    <img src="myimage2-removebg.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="c-col">
+                    <img src="/styles/images/2.webp">
+
+                </div>
+                <div class="c-col">
+                    <img src="/styles/images/3.jpg">
+
+                </div>
+                <div class="c-col">
+
+                    <img src="/styles/images/1.webp">
+                </div>
+
+            </div>
+        </div> -->
+        <div class="discount">
+            <div class="text">
+                <h4>Special Discount</h4>
+            <h2>Up to <span>70% off</span> -On All Ladies Wear</h2>
+            <div class="btn" id="locha">Explore More</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="small-container">
+        <h2 class="title" id="hello">Futured Products</h2>
+        <div class="line"></div>
+        <div class="row">
+            <div class="charcol">
+                <!-- charcol means four col -->
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18563800/2022/6/2/eeb9e3bf-c060-4032-8f49-fb41dbacf55b1654148848955-Apple-Unisex-Headphones-1001654148848789-1.jpg">
+                <h4>Apple-Airpord </h4>
+                
+                    <div class="ratting">
+                        &#9733  &#9733 &#9733 &#9733 &#9733
+                    </div>
+               
+                
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13641022/2021/3/31/5281d979-1c5d-4273-878d-e71ce1ff47fb1617193997505-Puma-Unisex-Backpacks-5111617193996220-1.jpg">
+                <h4>Puma-Backpack </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18154284/2022/5/10/3515cf00-d37e-4ebd-9e65-674acbea92b21652162168330-DIZO-Watch-2-by-realme-techlife-8311652162167506-1.jpg
+                ">
+                <h4>DIZO-Watch-2-by-realme-techlife </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16127424/2021/11/18/40aea483-a98e-4551-b323-545a10e938db1637235583074-boAt-Rockerz-260-M-Wireless-Neckband-with-Upto-25-Hours-Play-1.jpg">
+                <h4>boAt-Rockerz-260-M-Wireless-Neckband-with-Upto-25-Hours-Play- </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="line"></div>
+        <div class="row">
+            <div class="charcol">
+                <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17710170/2022/4/4/20a3e74c-f546-4ddf-a3fc-5325355bbc131649067846300RedTapeMenNavyBlueColourblockedSneakers1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14550612/2021/12/30/96a89978-413d-4e7d-b60a-79f12daf3bbc1640848713771-Nautica-Men-Jackets-2751640848713047-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13137110/2021/7/27/c99daa64-2b84-415c-8129-3a25658fe9cd1627373261770HIGHLANDERMenGreenSolidDenimJacket1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11097160/2021/9/2/fcd672b3-9b7d-4bc2-974a-4d588a83b88c1630579627596HIGHLANDERMenWhiteSneakers1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17350726/2022/5/12/1fbba260-8584-4d2a-86fa-a5fa91ddad701652344722392-Puma-Men-White--Black-Colourblocked-IDP-Sneakers-87416523447-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17710170/2022/4/4/20a3e74c-f546-4ddf-a3fc-5325355bbc131649067846300RedTapeMenNavyBlueColourblockedSneakers1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17350718/2022/5/11/03a74544-12ad-4501-97d5-633b7d9d43971652267731013-Puma-Men-Casual-Shoes-2431652267730668-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16595858/2022/1/21/81124523-6b8d-46f6-a74f-b4fe28a7d3b61642763095101-Saree-Mall-Pink-Organza-Ethnic-Printed-Party-Wear-Saree-with-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/15195736/2022/4/5/4dc201e5-ec81-458a-af30-c6e99a37691a1649158065149-Mitera-Red--Gold-Toned-Woven-Design-Bandhani-Saree-146164915-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17466042/2022/3/19/47a50121-df1f-4802-a580-9ef1bb41d0b51647667465576-VASTRANAND-Women-Sarees-151647667464974-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17703594/2022/5/11/969e8ee1-51aa-4244-99cd-cdafe541b4e91652266377414-UNITED-LIBERTY-Teal-Blue--Golden-Zari-Art-Silk-Banarasi-Sare-1.jpg">
+                <h4>Coolest Designed Dark Green T-shirt </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var logobtn = document.getElementsByClassName("logo")[0]
+        var menubtn = document.getElementsByClassName("menu-btn")[0]
+        var menubtn2 = document.getElementsByClassName("menu-btn2")[0]
+        var navlinks = document.getElementsByClassName("nav-links")[0]
+        function hidelogo() {
+
+            logobtn.style.display = "none";
+
+
+
+        }
+
+        function showlogo() {
+
+
+
+            logobtn.style.display = "flex";
+
+
+
+
+        }
+        function hidenavlinks() {
+            navlinks.style.display = "none";
+
+        }
+        function shownavlinks() {
+            navlinks.style.display = "flex";
+
+        }
+        function hidemenubtn() {
+            menubtn.style.display = "none";
+
+        }
+        function showmenubtn() {
+            menubtn.style.display = "flex";
+
+        }
+        function hidemenubtn2() {
+            menubtn2.style.display = "none";
+
+        }
+        function showmenubtn2() {
+            menubtn2.style.display = "flex";
+
+        }
+    </script>
+
+
+    </div>
+
+    <!-- =======================offer================== -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col">
+                    <img src="WhatsApp_Image_2022-07-02_at_9.51.15_AM-removebg-preview.png" alt="">
+                </div>
+                <div class="col">
+                    <p> Exclusivity available on BrandedKart</p>
+                    <h1>Apple-watch-series-2</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illo inventore nesciunt.
+                        Commodi, dolores! Nemo culpa blanditiis odit vero facilis unde inventore numquamLorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Odit illo inventore nesciunt.
+                        Commodi, dolores! Nemo culpa blanditiis odit vero facilis unde inventore numquam </small>
+
+                    <a href="" class="btn">Buy Now &#8594</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <h2 class="new-title">Founder And Product Supplier
+            <div class="line"></div>
+        </h2>
+
+
+        <div class="small-container">
+            <div class="row">
+                <div class="c-col">
+                    <!-- <img src="/styles/images/jp.jpeg" alt=""> -->
+                    <h3>Jeeshant Patel</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, et Suscipit, quaerat!loremejejj
+                        'ehehe jeje jeeh?</p>
+                    <img src="/User_icon_2.svg.png" alt="">
+                </div>
+                <div class="c-col">
+                    <!-- <img src="/styles/images/parthbhai.jpeg" alt=""> -->
+                    <h3>Jeeshant Patel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quaerat!loremejejj 'ehehe jeje
+                        jeeh'
+
+                    </p>
+                    <img src="/User_icon_2.svg.png" alt="">
+                </div>
+                <div class="c-col">
+                    <!-- <img src="/styles/images/jp.jpeg" alt=""> -->
+                    <h3>Jeeshant Patel</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, et Suscipit, quaerat!loremejejj
+                        'ehehe jeje jeeh?</p>
+                    <img src="/User_icon_2.svg.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5 ">
+                    <img src="logo6.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo7.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo10.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo9.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For newsletter</h4>
+            <p>Get E-mail updates about our latest products and <span>special offers</span></p>
+
+
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <a href="/signup.html" class="btn tempbtn">Sign Up </a>
+        </div>
+    </div>
+
+    <!-- ====================footer====================  f means footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="fcol-1">
+                    <h3>Download Our App</h3>
+                    
+                    <p>From App Store or Google play</p>
+                    <div class="logoss">
+                        <a href="https://play.google.com"><img src="new logos2.png" ></a>
+                       <a href="https://www.apple.com/in/app-store/"> <img src="new logos.png" ></a>
+                 
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <div class="visa">
+                       <img  src="visa-credit-card(1).png" >
+                        <img  src="mastercard.png" >
+                        <img  src="payment.png" >
+                        <img  src="paypal.png" >
+                    </div>
+            
+                    
+                </div>
+                <div class="fcol-2">
+                    <div class="logo">
+                        <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                        <h1 >BRANDED </h1>
+                        <h1 id="kart"> KART</h1>
+                    </div>
+                   
+                    <!-- <p>Download App for Android and ios phone.</p> -->
+                </div>
+                <div class="mob-col">
+                    <div class="fcol-3">
+                        <h3>Usefull Links</h3>
+                       <ul>
+                        <li> <a href="/about.html">About us</a> </li>
+                        <li> <a href="#">Delivery Information</a> </li>
+                        <li> <a href="#">Track My Order</a> </li>
+                        <li> <a href="#"> Return Policy</a></li>
+                        <li>  <a href="#"> Contact us</a></li>
+                       </ul>
+                    </div>
+                    <div class="fcol-4">
+                        <h3>Follow us</h3>
+                       <ul>
+                        <li> <a href="https://www.facebook.com">Facebook</a> </li>
+                        <li> <a href="https://www.twitter.com">Twitter</a> </li>
+                        <li>  <a href="https://www.instragram.com"> Instagram</a></li>
+                        <li> <a href="https://www.youtube.com">Youtube</a> </li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p id="copy">All Rights Received | Created By 
+                <a id="jp"  href="https://www.linkedin.com/in/jeeshant-patel-371aa1226">Jeeshant Patel</a>
+                </p>
+        </div>    
+    </div>
+
+
+
+</body>
+
+</html>

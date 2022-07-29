@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-BrandedKart </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Moonrocks&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- <div class="header" id="id"> -->
+        <div class="container">
+            <nav class="navbar">
+
+                <div class="logo">
+                    <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                    <h1>BRANDED </h1>
+                    <h1 id="kart"> KART</h1>
+                </div>
+                <ul class="nav-links" id="id2">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="/account.html">Account</a></li>
+                    <img id="cart" src="cart.png">
+
+                </ul>
+                <div class="menu-btn" onclick="hidelogo();shownavlinks();showmenubtn2();hidemenubtn();">
+                    &#9776
+                </div>
+                <div class="menu-btn2" onclick="showlogo();hidenavlinks();hidemenubtn2();showmenubtn();">
+                    &#9776
+                </div>
+
+            </nav>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="banner" id="aboutbanner">
+        <div class="text2">
+            <h2>About <span> Us</span> </h2>
+            <h4>We help <span>our customers</span> to discover new products to
+                success using this platform.</h4>
+            <div class="btn" id="aboutbtn">Read More</div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <img src="about.jpeg" alt="">
+        <div class="about-text">
+            <h2> <span>Who</span> We <span>Are?</span></h2>
+            <p>Great customer experiences start with effective communication. More than a thousand companies of all
+                sizes use BrandedKart to connect directly with customers using a communication channel that is
+                convenient and personal. Whether you want to text for customer service, sales, logistics, operations, or
+                more, our platform will make your job easier and save your team valuable time. No more email, no more
+                phone calls, no more apps.</p>
+            <abbr title="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem ea magnam
+                temporibus numquam excepturi.</abbr>
+            <br><br>
+            <marquee width="100%" loop="-1" scrollamount="5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, amet.</marquee>
+
+        </div>
+
+    </div>
+    <div class="container" id="boxes">
+        <div class="box">
+            <div class="iconn">01</div>
+            <div class="content">
+                <h2>service Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto eaque error ab
+                    necessitatibus nihil!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="iconn">02</div>
+                <div class="content">
+                    <h2>service Name</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto eaque error ab
+                        necessitatibus nihil!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+               
+            </div>
+            <div class="box">
+                <div class="iconn">03</div>
+                <div class="content">
+                    <h2>service Name</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim architecto eaque error ab
+                        necessitatibus nihil!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+
+            <script>
+                var logobtn = document.getElementsByClassName("logo")[0]
+                var menubtn = document.getElementsByClassName("menu-btn")[0]
+                var menubtn2 = document.getElementsByClassName("menu-btn2")[0]
+                var navlinks = document.getElementsByClassName("nav-links")[0]
+                function hidelogo() {
+
+                    logobtn.style.display = "none";
+
+
+
+                }
+
+                function showlogo() {
+
+
+
+                    logobtn.style.display = "flex";
+
+
+
+
+                }
+                function hidenavlinks() {
+                    navlinks.style.display = "none";
+
+                }
+                function shownavlinks() {
+                    navlinks.style.display = "flex";
+
+                }
+                function hidemenubtn() {
+                    menubtn.style.display = "none";
+
+                }
+                function showmenubtn() {
+                    menubtn.style.display = "flex";
+
+                }
+                function hidemenubtn2() {
+                    menubtn2.style.display = "none";
+
+                }
+                function showmenubtn2() {
+                    menubtn2.style.display = "flex";
+
+                }
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+            <div class="newsletter" id="onlyabout">
+                <div class="newstext">
+                    <h4>Sign Up For newsletter</h4>
+                    <p>Get E-mail updates about our latest products and <span>special offers</span></p>
+
+
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Your email address">
+                    <a href="/signup.html" class="btn tempbtn">Sign Up </a>
+                </div>
+            </div>
+
+            <!-- ====================footer====================  f means footer-->
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="fcol-1">
+                            <h3>Download Our App</h3>
+
+                            <p>From App Store or Google play</p>
+                            <div class="logoss">
+                                <a href="https://play.google.com"><img src="new logos2.png"></a>
+                                <a href="https://www.apple.com/in/app-store/"> <img
+                                        src="new logos.png"></a>
+
+                            </div>
+                            <p>Secured Payment Gateways</p>
+                            <div class="visa">
+                                <img src="visa-credit-card(1).png">
+                                <img src="mastercard.png">
+                                <img src="payment.png">
+                                <img src="paypal.png">
+                            </div>
+
+
+                        </div>
+                        <div class="fcol-2">
+                            <div class="logo">
+                                <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                                <h1>BRANDED </h1>
+                                <h1 id="kart"> KART</h1>
+                            </div>
+
+                            <!-- <p>Download App for Android and ios phone.</p> -->
+                        </div>
+                        <div class="mob-col">
+                            <div class="fcol-3">
+                                <h3>Usefull Links</h3>
+                               <ul>
+                                <li> <a href="/about.html">About us</a> </li>
+                                <li> <a href="#">Delivery Information</a> </li>
+                                <li> <a href="#">Track My Order</a> </li>
+                                <li> <a href="#"> Return Policy</a></li>
+                                <li>  <a href="#"> Contact us</a></li>
+                               </ul>
+                            </div>
+                            <div class="fcol-4">
+                                <h3>Follow us</h3>
+                               <ul>
+                                <li> <a href="https://www.facebook.com">Facebook</a> </li>
+                                <li> <a href="https://www.twitter.com">Twitter</a> </li>
+                                <li>  <a href="https://www.instragram.com"> Instagram</a></li>
+                                <li> <a href="https://www.youtube.com">Youtube</a> </li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p id="copy">All Rights Received | Created By
+                        <a id="jp" href="https://www.linkedin.com/in/jeeshant-patel-371aa1226">Jeeshant Patel</a>
+                    </p>
+                </div>
+            </div>
+     
+
+
+
+</body>
+
+</html>

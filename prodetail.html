@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-BrandedKart </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- <div class="header" id="id"> -->
+    <div class="container">
+        <nav class="navbar">
+
+            <div class="logo">
+                <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                <h1>BRANDED </h1>
+                <h1 id="kart"> KART</h1>
+            </div>
+            <ul class="nav-links" id="id2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Product.html" class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Account</a></li>
+                <img id="cart" src="cart.png">
+
+            </ul>
+            <div class="menu-btn" onclick="hidelogo();shownavlinks();showmenubtn2();hidemenubtn();">
+                &#9776
+            </div>
+            <div class="menu-btn2" onclick="showlogo();hidenavlinks();hidemenubtn2();showmenubtn();">
+                &#9776
+            </div>
+
+        </nav>
+
+
+
+    </div>
+
+    <div class="container" id="prodetail">
+        <div class="singleimg">
+            <img src="proimg1.jpeg" id="mainimg" width="70%" height="70%" alt="">
+
+            <div class="small-img">
+                <div class="small-img-col">
+                    <img src="proimg2.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="proimg3.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="proimg4.jpeg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="proimg3.jpeg" class="small-img" width="100%" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="singledetail">
+            <h4>Home /T-shirt</h4>
+            <h3>Men's Fashion T-Shirt</h3>
+            <h2>$100</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+
+            </select>
+            <input type="number" value="1">
+            <button class="btn" id="add">Add To Cart</button>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt in ad delectus provident cum assumenda
+                accusantium itaque! Dolor ab praesentium itaque excepturi maiores, voluptatem ipsum ea molestias, vitae
+                corporis corrupti expedita unde eos nemo nihil enim iste facere provident distinctio reiciendis atque!
+                Nostrum eum accusantium ut nesciunt odio vel cumque.</p>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title" id="hello">Related Products</h2>
+        <div class="line"></div>
+        <div class="row">
+            <div class="charcol">
+                <!-- charcol means four col -->
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18563800/2022/6/2/eeb9e3bf-c060-4032-8f49-fb41dbacf55b1654148848955-Apple-Unisex-Headphones-1001654148848789-1.jpg">
+                <h4>Apple-Airpord </h4>
+                
+                    <div class="ratting">
+                        &#9733  &#9733 &#9733 &#9733 &#9733
+                    </div>
+               
+                
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13641022/2021/3/31/5281d979-1c5d-4273-878d-e71ce1ff47fb1617193997505-Puma-Unisex-Backpacks-5111617193996220-1.jpg">
+                <h4>Puma-Backpack </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18154284/2022/5/10/3515cf00-d37e-4ebd-9e65-674acbea92b21652162168330-DIZO-Watch-2-by-realme-techlife-8311652162167506-1.jpg
+                ">
+                <h4>DIZO-Watch-2-by-realme-techlife </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="charcol">
+                <img
+                    src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/16127424/2021/11/18/40aea483-a98e-4551-b323-545a10e938db1637235583074-boAt-Rockerz-260-M-Wireless-Neckband-with-Upto-25-Hours-Play-1.jpg">
+                <h4>boAt-Rockerz-260-M-Wireless-Neckband-with-Upto-25-Hours-Play- </h4>
+                <div class="ratting">
+                    &#9733  &#9733 &#9733 &#9733 &#9734
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var logobtn = document.getElementsByClassName("logo")[0]
+        var menubtn = document.getElementsByClassName("menu-btn")[0]
+        var menubtn2 = document.getElementsByClassName("menu-btn2")[0]
+        var navlinks = document.getElementsByClassName("nav-links")[0]
+        function hidelogo() {
+
+            logobtn.style.display = "none";
+
+
+
+        }
+
+        function showlogo() {
+
+
+
+            logobtn.style.display = "flex";
+
+
+
+
+        }
+        function hidenavlinks() {
+            navlinks.style.display = "none";
+
+        }
+        function shownavlinks() {
+            navlinks.style.display = "flex";
+
+        }
+        function hidemenubtn() {
+            menubtn.style.display = "none";
+
+        }
+        function showmenubtn() {
+            menubtn.style.display = "flex";
+
+        }
+        function hidemenubtn2() {
+            menubtn2.style.display = "none";
+
+        }
+        function showmenubtn2() {
+            menubtn2.style.display = "flex";
+
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For newsletter</h4>
+            <p>Get E-mail updates about our latest products and <span>special offers</span></p>
+
+
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <a href="" class="btn tempbtn">Sign Up </a>
+        </div>
+    </div>
+
+    <!-- ====================footer====================  f means footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="fcol-1">
+                    <h3>Download Our App</h3>
+
+                    <p>From App Store or Google play</p>
+                    <div class="logoss">
+                        <a href="https://play.google.com"><img src="/styles/images/new logos2.png"></a>
+                        <a href="https://www.apple.com/in/app-store/"> <img src="/styles/images/new logos.png"></a>
+
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <div class="visa">
+                        <img src="/styles/images/visa-credit-card(1).png">
+                        <img src="/styles/images/mastercard.png">
+                        <img src="/styles/images/payment.png">
+                        <img src="/styles/images/paypal.png">
+                    </div>
+
+
+                </div>
+                <div class="fcol-2">
+                    <div class="logo">
+                        <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                        <h1>BRANDED </h1>
+                        <h1 id="kart"> KART</h1>
+                    </div>
+
+                    <!-- <p>Download App for Android and ios phone.</p> -->
+                </div>
+                <div class="mob-col">
+                    <div class="fcol-3">
+                        <h3>Usefull Links</h3>
+                        <ul>
+                            <li>About us</li>
+                            <li>Delivery Information</li>
+                            <li>Track My Order</li>
+                            <li>Return Policy</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                    <div class="fcol-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p id="copy">All Rights Received | Created By
+                <a id="jp" href="https://www.linkedin.com/in/jeeshant-patel-371aa1226">Jeeshant Patel</a>
+            </p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+   
+        <div class="container">
+            <nav class="navbar">
+
+                <div class="logo">
+                    <!-- <img id="lg" src="/styles/images/MYLOGO.png"> -->
+                    <h1>BRANDED </h1>
+                    <h1 id="kart"> KART</h1>
+                </div>
+                <ul class="nav-links">
+                    <li ><a  href="index.html" >Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="account.html" class="active">Account</a></li>
+                    <img id="cart" src="cart.png">
+
+                </ul>
+                <div class="menu-btn" onclick="hidelogo();shownavlinks();showmenubtn2();hidemenubtn();">
+                    &#9776
+                </div>
+                <div class="menu-btn2" onclick="showlogo();hidenavlinks();hidemenubtn2();showmenubtn();">
+                    &#9776
+                </div>
+
+            </nav>
+
+
+            
+        </div>
+    
+    
+   <div class="body">
+    <div class="acc-container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">
+                    Login
+                </span>
+                <div class="line" id="acc-line"></div>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logcheck">
+                            <label type="checkbox" id="logcheck"> Remember me</label>
+                            <!-- <a href="#" class="text">Forgot Password?</a> -->
+                        </div>
+                        <a href="#" class="acctext">Forgot Password?</a>
+
+                    </div>
+                    <div class="btn" id="accbtn">login Now</div>
+
+                </form>
+                <div class="login-signup">
+                    <span >New customer?</span>
+                    <a href="signup.html" class="acctext signup-text">Signup Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script>
+    var logobtn = document.getElementsByClassName("logo")[0]
+    var menubtn = document.getElementsByClassName("menu-btn")[0]
+    var menubtn2 = document.getElementsByClassName("menu-btn2")[0]
+    var navlinks = document.getElementsByClassName("nav-links")[0]
+    function hidelogo() {
+
+        logobtn.style.display = "none";
+
+
+
+    }
+
+    function showlogo() {
+
+
+
+        logobtn.style.display = "flex";
+
+
+
+
+    }
+    function hidenavlinks() {
+        navlinks.style.display = "none";
+
+    }
+    function shownavlinks() {
+        navlinks.style.display = "flex";
+
+    }
+    function hidemenubtn() {
+        menubtn.style.display = "none";
+
+    }
+    function showmenubtn() {
+        menubtn.style.display = "flex";
+
+    }
+    function hidemenubtn2() {
+        menubtn2.style.display = "none";
+
+    }
+    function showmenubtn2() {
+        menubtn2.style.display = "flex";
+
+    }
+</script>
+   
+</body>
+
+</html>
