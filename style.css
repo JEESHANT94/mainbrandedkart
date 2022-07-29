@@ -1526,7 +1526,7 @@ select {
 
 @media(max-width:400px) {
     html {
-        font-size: 45%;
+        font-size: 47%;
     }
 
 }
@@ -1535,7 +1535,7 @@ select {
 
 @media(max-width:300px) {
     html {
-        font-size: 40%;
+        font-size: 45%;
     }
 
     #aboutbtn {
