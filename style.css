@@ -1532,6 +1532,10 @@ select {
     html {
         font-size: 50%;
     }
+      
+    #aboutbtn {
+        margin: 1.5rem 0;
+    }
 
 }
 
@@ -1543,7 +1547,7 @@ select {
     }
 
     #aboutbtn {
-        margin: 1.1rem 0;
+        margin: 1rem 0;
     }
 
 }
